@@ -1,4 +1,4 @@
-# Using Jack and PulseAudio to apply effects on your microphone voice.
+# Using Jack and PulseAudio to apply effects on your microphone.
 
 _It was tested on Ubuntu 18.04 and 20.04._
 
