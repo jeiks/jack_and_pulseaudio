@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if pidof qjackctl;then
+    echo "First you have to kill 'qjackctl'" >&2
+    echo "Ex.: pkill qjackctl"
+else
+    killall -9 jackd 2> /dev/null || true
+    sleep 1
+    /usr/bin/qjackctl
+    pkill jackd
+fi
