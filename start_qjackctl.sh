@@ -11,7 +11,7 @@ fi
 
 ## Starting jack-rack:
 if ! pidof jack-rack;then
-   jack-rack ~/Develop/Jack_Voice/voice.jr &
+   jack-rack &
 fi
 
 ## Checking if jack modules are loaded:
